@@ -7,7 +7,6 @@ int main()
     char log;
     std::cin >> log;
     int i = static_cast<int>(log);
-    std::cout << "Your password" << i << std::endl;
     res =  i ^ 0x5678;
     int pas = res ^ 0x1234;
     std::cout<<"Your password"<<pas<<std::endl;
